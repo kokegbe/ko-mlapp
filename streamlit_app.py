@@ -72,4 +72,4 @@ with st.expander('Data preparation'):
   st.write('**Encoded y**')
   y
 
-
+#model training
