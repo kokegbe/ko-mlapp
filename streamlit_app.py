@@ -44,10 +44,10 @@ with st.sidebar:
   input_penguins = pd.concat([input_df, X_raw], axis=0)
 
   with st.expander('Input features'):
-  st.write('**Input penguins**')
-  input_df  
-  st.write('**Combined penguins data**')
-  input_penguins
+    st.write('**Input penguins**')
+    input_df  
+    st.write('**Combined penguins data**')
+    input_penguins
 
   #Data Preparation
   #Encode X
