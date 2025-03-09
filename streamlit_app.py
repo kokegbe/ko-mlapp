@@ -59,7 +59,7 @@ with st.sidebar:
   target_mapper = {'Adelie':0,
                   'Chinstrap':1,
                   'Gentoo':2}
- def target_encode(val):
+def target_encode(val):
    return target_mapper[val]
 
  y = y_raw.apply(target_encode)
